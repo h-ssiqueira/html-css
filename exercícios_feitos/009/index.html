@@ -4,31 +4,74 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Other formattings</title>
+	<title>Lists</title>
 </head>
 <body>
-	<h1>Other formattings</h1>
-	<h2>Source code</h2>
-	<p>The command <code>document.getElementById('test')</code> is written in JavaScript language</p>
-	<pre> <!--Preserves the formatting of code-->
-	<code>
-		num = int(input("type a number"))
-		if num % 2 == 0:
-			print(f"The number {num} is even")
-		else:
-			print(f"The number {num} is odd")
-	</code>
-	</pre>
-	<h2>Simple quotes</h2>
-	<p>As a father of a friend says: <q>The computer is a faster donkey</q></p>
-	<h2>Complete quotes</h2>
-	<p>As Jeff Noble says in his HTML book to begginers:</p>
-	<blockquote cite="">
-		The difference between inline elements and a text block is important. The HTML elements in this chapter describe the text blocks.
-	</blockquote>
-	<h2>Abbreviations</h2>
-	<p>I'm studying <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr></p>
-	<h2>Inverse text</h2>
-	<p><bdo dir="rtl">I'm learning to create things in HTML.</bdo></p>
+	<h1>Working with lists</h1>
+	<h2>Ordered lists</h2>
+	<ol type="I">
+		<li>Wake up
+		<li>Call João
+		<li>Eat breakfast
+		<li>Brush teeths
+		<li>Go to college
+		<li>Have lunch
+		<li>Go to work
+		<li>Back home
+		<li>Have dinner
+		<li>Sleep
+	</ol>
+	<h2>Unordered lists</h2>
+	<ul type="square">
+		<li>Bread
+		<li>Milk
+		<li>Tomato
+		<li>lettuce
+		<li>Butter
+		<li>Rice
+		<li>Beans
+	</ul>
+	<h2>My favorite languages</h2>
+	<ol>
+		<li>Olds</li>
+		<ol type="a">
+			<li>VHDL</li>
+			<li>Lisp</li>
+			<li>Prolog</li>
+		</ol>
+		<li>New</li>
+		<ol type="a" start="4">
+			<li>C</li>
+			<li>Java</li>
+			<li>Python</li>
+		</ol>
+	</ol>
+	<h2>My favorite games</h2>
+	<ul>
+		<li>PC</li>
+		<ul>
+			<li>CS</li>
+			<li>GTA V</li>
+			<li>BF4</li>
+			<li>L4D2</li>
+			<li>Call of duty</li>
+			<li>The witcher</li>
+		</ul>
+		<li>PS3</li>
+		<ul>
+			<li>The last of us</li>
+			<li>Uncharted</li>
+			<li>Assassin's creed</li>
+		</ul>
+	</ul>
+	<h2>Definition list</h2>
+	<dl>
+		<dt>HTML</dt>
+		<dd>Markup language to creation of contents of a site</dd>
+		<dt>CSS</dt>
+		<dd>Markup language to create the design of a site</dd>
+		<dt>JavaScript</dt>
+		<dd>Programming langiage to creation of interativity of a site</dd>
+	</dl>
 </body>
 </html>

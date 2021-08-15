@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Working with links</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias</title>
 </head>
 <body>
-	<h1>Using external links</h1>
-	<p>You can access <a href="https://github.com/h-ssiqueira" targer="_blank" rel="external">my github profile</a></p>
-	<h2>Using internal links</h2>
-	<p>This is the first page of the site, if you want, you can access the <a href="pag002.html" rel="next">second page</a> too</p>
-	<p>You can access our <a href="news/pag003.html" rel="next" target="_self">news page</a> too</p>
+    <h1>Dynamic image</h1>
+    <p>try to open this site on different devices or simply resize your browser/<p>
+    <picture> <!--Order ascending-->
+        <source media="(max-width: 750px)" srcset="../../exercicios/modulo-01/ex011/imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="../../exercicios/modulo-01/ex011/imagens/foto-m.png">
+        <img src="../../exercicios/modulo-01/ex011/imagens/foto-g.png" alt="image">
+    </picture>
+
+    <h1>Play audio</h1>
+    <p>Let's learn to play audios in HTML5</p>
+    <!--<audio src="../../exercicios/modulo-01/ex011/midia/happy-mistake.mp3" controls autoplay></audio>-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="../../exercicios/modulo-01/ex011/midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>Unfortunately your browser cannot play mp3 files</p>
+    </audio>
 </body>
 </html>
