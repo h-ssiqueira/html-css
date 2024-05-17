@@ -1,0 +1,99 @@
+@charset "UTF8";
+@import url('fontes/idroid.otf');
+
+span {
+    color: rgb(0, 68, 0);
+    font-weight: bold;
+}
+
+h1 {
+    color: darkgreen;
+    margin: 0px, 0px, 20px, 0px;
+}
+
+h2 {
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+p {
+    text-align: justify;
+}
+
+h4 {
+    color: darkgreen;
+}
+
+a {
+    color: rgb(0, 68, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(1, 44, 1);
+    margin: 0px 0px 0px 0px;
+}
+
+header>h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+header>h4 {
+    color: white;
+    text-align: center;
+}
+
+nav>a {
+    color: white
+}
+
+article {
+    background-color: white;
+    margin: 0% 10% 0% 10%;
+}
+
+body {
+    background-color: rgb(6, 177, 91);
+}
+
+footer {
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+footer>p {
+    margin: 0px;
+}
+
+.rodape {
+    color: white;
+}
+
+nav>a {
+    margin: 5px;
+}
+
+div {
+    background-color: rgb(6, 177, 91);
+    margin: 0px 10px 0px 10px;
+}
+
+ul {
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+iframe {
+    background-color: darkgreen;
+    display: block;
+    margin: 0px auto;
+}
