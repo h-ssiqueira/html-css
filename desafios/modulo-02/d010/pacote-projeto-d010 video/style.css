@@ -1,0 +1,156 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'tech';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+span {
+    color: rgb(0, 68, 0);
+    font-weight: bold;
+}
+
+h1 {
+    color: darkgreen;
+    margin: 0px;
+    padding: 20px 10px;
+    font-size: 2em;
+}
+
+h2 {
+    color: darkgreen;
+    background-color: lightgreen;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+h4 {
+    color: darkgreen;
+}
+
+a {
+    color: rgb(0, 68, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(1, 44, 1);
+    margin: 0px 0px 0px 0px;
+    box-shadow: 1px 3px 7px 3px rgba(0, 0, 0, 0.555)
+}
+
+header>h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+header>h3 {
+    color: white;
+    text-align: center;
+}
+
+nav>a {
+    color: white
+}
+
+article {
+    background-color: white;
+    margin: 0% 10% 0% 10%;
+    box-shadow: 1px 3px 7px 3px rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(6, 177, 91);
+}
+
+footer {
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer>p {
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.rodape {
+    color: white;
+}
+
+nav>a {
+    margin: 5px;
+}
+
+div {
+    background-color: rgb(6, 177, 91);
+    margin: 0px 10px 0px 10px;
+    box-shadow: 1px 3px 7px 3px rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+}
+
+div>h3 {
+    background-color: rgb(3, 92, 47);
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ul {
+    display: inline-block;
+}
+
+li::before {
+    content: "✔ ";
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+iframe {
+    background-color: darkgreen;
+    display: block;
+    padding: 25px;
+    width: 94.4%;
+    height: 100%;
+}
+
+.titulos {
+    font-family: "tech";
+}
+
+.articleLink::after {
+    content: "🔗";
+}
+
+.androidItem {
+    text-decoration: underline;
+    font-weight: normal;
+    color:black
+}
+
+#rodape {
+    text-indent: 0px;
+}
